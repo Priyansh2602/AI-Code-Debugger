@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Environment Variables (CRITICAL FOR API KEY SECURITY)
+.env
+/server/.env
+
+# Build Artifacts
+/client/build
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
