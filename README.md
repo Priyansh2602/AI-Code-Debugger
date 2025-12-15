@@ -52,24 +52,30 @@ You must have the following system dependencies installed for full multi-languag
 
 ## Environment Variables
 Create a .env file in the root directory and add your key:
-# Google Gemini API Key - Required for the AI explanation and fix generation feature.
+### Google Gemini API Key - Required for the AI explanation and fix generation feature.
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE 
 
 ## Install Dependencies
 ### Server dependencies
 cd server
+
 npm install
 
 ### Client dependencies
 cd client
+
 npm install
 
 ## Run the Project
 
-Terminal 1 (Backend):
+• Terminal 1 (Backend):
+
 cd server
+
 npm run dev
 
-Terminal 2 (Frontend):
+• Terminal 2 (Frontend):
+
 cd client
+
 npm start
