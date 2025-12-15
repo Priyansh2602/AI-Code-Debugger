@@ -33,18 +33,43 @@ This application is a full-stack, AI-enhanced debugging tool that uses a Hybrid 
 ### 🌎 Supported Debugging Languages
 Users can analyze and receive corrections for a wide variety of code, including:
 
-•JavaScript
+• JavaScript
 
-•Python
+• Python
 
-•C++
+• C++
 
 ## ⚙️ Installation and Setup (Local)
 Prerequisites
+
 You must have the following system dependencies installed for full multi-language functionality:
 
-•Node.js and npm
+• Node.js and npm
 
-•Python and Pylint (e.g., pip install pylint)
+• Python and Pylint (e.g., pip install pylint)
 
-•C++ Compiler (g++)
+• C++ Compiler (g++)
+
+## Environment Variables
+Create a .env file in the root directory and add your key:
+# Google Gemini API Key - Required for the AI explanation and fix generation feature.
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE 
+
+## Install Dependencies
+### Server dependencies
+cd server
+npm install
+
+### Client dependencies
+cd client
+npm install
+
+## Run the Project
+
+Terminal 1 (Backend):
+cd server
+npm run dev
+
+Terminal 2 (Frontend):
+cd client
+npm start
